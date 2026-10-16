@@ -1,9 +1,9 @@
-# id-utils
+# @adiprmx/id-utils
 
 Pure JavaScript utilities for everyday Indonesian calculations. No dependencies, no DOM, works in Node and browsers.
 
 ```js
-import { calcPPh21, calcZakatMaal, calcWeton } from 'id-utils';
+import { calcPPh21, calcZakatMaal, calcWeton } from '@adiprmx/id-utils';
 
 calcPPh21(12000000, 2000000, 240000, 'TK/0');
 // { pphBln: 814000, pphThn: 9768000, pkp: 105120000, ... }
@@ -12,7 +12,7 @@ calcPPh21(12000000, 2000000, 240000, 'TK/0');
 ## Install
 
 ```
-npm install id-utils
+npm install @adiprmx/id-utils
 ```
 
 ## What is inside
